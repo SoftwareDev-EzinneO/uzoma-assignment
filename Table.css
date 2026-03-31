@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-position: center;
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #333;
+}
+
+/* Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    height: 80vh;
+    /* overflow-y: auto; */
+    cursor: pointer;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #0a0a18;
+    color: #fff;
+}
+
+th {
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+/* table data or cells */
+
+tbody tr:hover {
+    background-color: #82b2f9;
+}
+tbody {
+    background-color: #3f60f4;
+}
+td {
+    font-size: 16px;
+    color: #f1ecec;
+    padding: 15px;
+    border-bottom: 2px solid #0e0d0d;
+    color: #fff;
+}
+
+td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: #e8e9ea;
+}
+.tots {
+    text-align: center;
+    color: #f20b0b;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+button {
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}

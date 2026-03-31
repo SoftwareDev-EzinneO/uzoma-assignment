@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="Table.css">
+</head>
+<body>
+   <h1>Freshers Real Estate</h1>
+   
+
+   <table class="header">
+     <thead>
+<tr>
+      <th>
+      PROPERTY ID
+   </th>
+      <th>
+     LOCATION
+   </th>
+   <th>
+     HOUSE TYPE
+   </th>
+   <th>
+BEDROOMS
+   </th>
+   <th>
+      PRICE
+   </th>
+</tr>
+ </thead>
+<tbody id="tableBody">
+   <tr>
+      <td>Re-001</td>
+      <td>Lekki</td>
+      <td>Detached</td>
+      <td>4</td>
+      <td class="price">₦100,000,000</td>              
+   </tr>
+
+   <tr>
+      <td>Re-002</td>
+      <td>Ikoyi</td>
+      <td>Penthouse</td>
+      <td>3</td>
+      <td class="price">₦320,000,000</td>
+   </tr>
+
+   <tr>
+      <td>Re-003</td>
+      <td>Ajah</td>
+      <td>Terrace</td>
+      <td>3</td>
+      <td class="price">₦50,000,000</td>
+   </tr>
+
+   <tr>
+      <td>Re-004</td>
+      <td>Garki</td>
+      <td>Semi-detached</td>
+      <td>5</td>
+      <td class="price">₦150,000,000</td>
+   </tr>
+
+   <tr>
+      <td>Re-005</td>
+      <td>Aba</td>
+      <td>Bungalow</td>
+      <td>3</td>
+      <td class="price">₦50,000,000</td>
+   </tr>
+
+</tbody>
+    
+   </table>
+  
+
+   <p class="tots">Total: <span id="total">0</span></p>
+   <button onclick="sumTotal()">Calculate Total</button>
+
+   <script src="/table.js"></script>
+
+
+</body>
+</html>
